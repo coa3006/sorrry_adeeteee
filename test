@@ -1,0 +1,42 @@
+ <div class="container hidden">
+    <button id="music-btn">▶ Play music</button>
+
+<audio id="bg-music">
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+    <h1>For Meethi Aka Bhalu 🌸</h1>
+    
+    <p>A little surprise is on the way…</p>
+
+    <div id="countdown">
+      <span id="days">00</span>d :
+      <span id="hours">00</span>h :
+      <span id="minutes">00</span>m :
+      <span id="seconds">00</span>s
+    </div>
+    <p id="blow-text">Blow the candles 🕯️</p>
+    <div id="cake-scene" class="hidden">
+  <div class="cake">
+  <div class="candles">
+    <div class="candle"><span class="flame"></span></div>
+    <div class="candle"><span class="flame"></span></div>
+    <div class="candle"><span class="flame"></span></div>
+  </div>
+
+  <div class="cake-body">
+  <div class="cake-left">
+    <div class="layer top"></div>
+    <div class="layer middle"></div>
+    <div class="layer bottom"></div>
+  </div>
+
+  <div class="cake-right">
+    <div class="layer top"></div>
+    <div class="layer middle"></div>
+    <div class="layer bottom"></div>
+  </div>
+</div>
+<div class="slice"></div>
+<div class="plate"></div>
+</div>
