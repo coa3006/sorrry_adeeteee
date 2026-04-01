@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Something For Doctor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500&family=Dancing+Script:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="audio-unlock" title="Enable sound">
+  🔊
+</div>
+
+    <div class="stars"></div>
+<div class="stars2"></div>
+<div class="stars3"></div>
+
+  <div id="intro">
+  <img src="bear.gif" alt="Cute Bear" />
+</div>
+  <div id="slider">
+ 
+  <!-- SLIDE 1 : COUNTDOWN -->
+  
+  <section class="slide active" id="slide-countdown">
+  <div class="container hidden" id="countdown-container">
+
+      <h1>🌻🌻For Doctor Aka Adetee 🌻🌻</h1>
+      <p> Hehehehe Sorryyy  </p>
+
+      <div id="countdown">
+        <span id="days">00</span>d :
+        <span id="hours">00</span>h :
+        <span id="minutes">00</span>m :
+        <span id="seconds">00</span>s
+      </div>
+       <p id="message"></p>
+      <p class="note">Please Wait Till The Countdown Hits 0 </p>
+
+    </div>
+   
+
+  </section>
+
+  <!-- SLIDE 2 : CAKE -->
+  <section class="slide" id="slide-cake">
+    <div class="poppers"></div>
+
+    <!-- Balloons -->
+<div class="balloons left">
+  <span></span><span></span><span></span>
+</div>
+
+<div class="balloons right">
+  <span></span><span></span><span></span>
+</div>
+  <div class="container hidden" id="cake-container">
+
+
+      <p id="blow-text" class="hidden">Blow the candles 🕯️</p>
+
+      <div id="cake-scene">
+        <div class="cake">
+          <div class="candles">
+            <div class="candle"><span class="flame"></span></div>
+            <div class="candle"><span class="flame"></span></div>
+            <div class="candle"><span class="flame"></span></div>
+          </div>
+
+          <div class="cake-body">
+            <div class="cake-left">
+              <div class="layer top"></div>
+              <div class="layer middle"></div>
+              <div class="layer bottom"></div>
+            </div>
+
+            <div class="cake-right">
+              <div class="layer top"></div>
+              <div class="layer middle"></div>
+              <div class="layer bottom"></div>
+            </div>
+          </div>
+
+          <div class="slice"></div>
+          <div class="plate"></div>
+        </div>
+      </div>
+
+      <h1 id="final-text" class="hidden">yaha kya likhna hai bta</h1>
+
+    </div>
+    
+  </section>
+  <!-- SLIDE 3 : GREETING CARD -->
+<section class="slide" id="slide-card">
+  <div class="card-scene">
+
+    <div class="greeting-card" id="greeting-card">
+      
+      <div class="card-front">
+        <h2>A Small Message For You :) </h2>
+        <p class="tap">Tap to open</p>
+      </div>
+
+      <div class="card-inside">
+        <h2>yaha bhi bta💖</h2>
+        <p id="card-text"></p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+</div>
+<audio id="bg-music" preload="auto"></audio>
+<audio id="cake-music" preload="auto">
+  <source src="cake.mp3" type="audio/mpeg">
+</audio>
+
+  <script src="script.js"></script>
+  <canvas id="fireworks"></canvas>
+  
+<div id="video-overlay" class="hidden">
+ <video
+  id="birthday-video"
+  src="video.mp4"
+  playsinline
+  preload="auto"
+></video>
+
+</div>
+
+
+
+
+</body>
+
+
+</html>
