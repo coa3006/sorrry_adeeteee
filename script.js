@@ -462,7 +462,37 @@ document.addEventListener("DOMContentLoaded", () => {
 
     card.classList.add("open");
 
-    const message = `isme kya likhe wo bta`;
+    const message = `Dearest Adeettteeee,
+
+It’s just a small surprise for you, just to make your day and for making you smile. 
+I know you’re going through a lot, I know you’re working hard for your better future 
+and I know that you still love me in these tough days too…. You’ve already done a lot
+for me and I don’t even know how to compensate…. You’ll always be my special one no matter
+what, I just can’t even think of stop loving you…. You always made me feel special, you
+always made me laugh even in my hard days…. I know things aren’t going well between us from
+last few days but it’s fine cause I always wanted you to be successful…. I always wanted you to
+earn more than I do (tab hi na aapke paiso se PS5 le paunga🤭🤣). I’ve always thought the best for 
+you cause I love you more than anyone could even think of…. I promise you that I’ll improve myself and
+get more matured…. I just want you to love me always…. You want me to wait until you clear your NEET exam….
+I’ll wait for you forever just promise me that you won’t forget how to love me…. I don’t want to be a manipulator, 
+I’m just writing all these just to let you know that I’ll love you always…. I’m not afraid of the waiting periods 
+cause pyaar me wait krna pdta h and also patience bhi rakhna pdta h…. I just want you to be with me after all these 
+waitings…. Leave these things…. I’m not writing all these to be a manipulator…. I just wanted to thank you for being 
+the best person I could ever meet…. You’ll always be the best thing that have ever happened to me…. My love for you will
+always be in arithmetic progression with common difference greater than 1 always…. I know things have changed between us
+but I just want you to be the same forever…. You’re my princess and will always be…. Don’t worry I’m always here with you 
+as your sunshine and I won’t let you die my sunflower🌻…. You are just the best yaar Adu…. Please mere sath rahiyega na
+humesha cause I’m always incomplete without you…. In just 1 years and 4 months I’ve loved you so much that I can’t even
+think of a second without you…. I’m improving myself and I’ll do believe me…. Won’t be that “toxic boyfriend” anymore I
+promise…. Yaar schme hm ni reh pyenge aapke bina…. I’m working on myself and I too have realised that there was a lot of 
+toxicity inside me…. I promise you to be the best version of myself…. Now I’m ending this please take care of yourself 
+and don’t listen if mummy papa kuch ulta sidha chiz bolenge to…. I’ll always be just a message away from you….
+If you ever need me in this waiting phase I’m there for you always…. I’m there for you to hear all your complaints…. 
+I’m there for you to make you feel loved and also I’m there for you if you ever need me with any help…. Tough phases
+to sabke relationship me aata h Adu lekin shadi sirf wahi log karte h jo tough phase khatam hone ke baad bhi pyaar karna nahi bhulte….
+Chalo ab hm chalte h…. Khyaal rkhiyega jaan…. I really love you and will always do🥹🫂❤️
+
+                                       Amrit`;
 
 
     let i = 0;
